@@ -15,7 +15,7 @@ system_messages = {
 }
 
 # Specify port for the api
-port = os.getenv('PORT', 3000)
+port = os.getenv('PORT', 80)
 
 # Define rate limit function
 def check_rate_limit(id):
