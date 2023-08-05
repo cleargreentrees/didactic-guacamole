@@ -71,7 +71,7 @@ requests-toolbelt==0.9.1
 rope==1.1.1
 rpds-py==0.8.11
 SecretStorage==3.3.3
-shellingham @ file:///home/runner/Python/.cache/pypoetry/artifacts/8c/0e/51/d01a4b15127b00e012b2a54373ee522795f6749f7126529602f9483eb8/shellingham-1.5.1-py2.py3-none-any.whl
+shellingham==1.5.1
 six==1.16.0
 toml==0.10.2
 tomli==2.0.1
