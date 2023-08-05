@@ -14,6 +14,9 @@ system_messages = {
   "normal": os.getenv('normal')
 }
 
+# Specify port for the api
+port = os.getenv('PORT', 3000)
+
 # Define rate limit function
 def check_rate_limit(id):
     # Get current date and time
@@ -113,4 +116,4 @@ def api():
 
 # Run app on port 5000 (default)
 if __name__ == "__main__":
-  app.run(host="0.0.0.0", port=3000)
+  app.run(host="0.0.0.0", port=port)
